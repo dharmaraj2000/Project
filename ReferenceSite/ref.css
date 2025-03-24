@@ -1,0 +1,113 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: hidden;
+   
+}
+
+.contactDetails{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(49, 23, 23);
+    width: 100%;   
+}
+.mail{
+    color: #ba6f51e7;
+    margin-left: 13%;
+    font-size: 18px;
+    margin-top: 15px;
+   
+}
+
+#regForm{
+    color: #ffff;
+    margin-right: 10%;
+    margin-top: 15px;
+    text-decoration:underline;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+
+#CollegeName{
+    display: inline-flex ;
+    /* justify-content: space-between; */
+    margin-left: 10%;
+    width: 100%;
+ 
+    
+}
+
+#clglogo{
+    width: 150px;
+    height: 150px;
+}
+
+#clglogo{
+    margin-left: 1%;
+}
+
+#clgdetailsName{
+margin-left: 10px;
+height: auto;
+display: block;
+}
+
+#clgName{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 36px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+#h3Text{
+    font-size: 28px;
+    color: #ba6f51e7;
+    margin-top:-15px;
+
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(49, 23, 23);
+    color: #ffff;
+    height: 30px;
+    text-align: center;
+}
+
+.navbar li{
+    margin-left: 10px;
+}
+
+#mark{
+background: #ffff;
+}
+
+#downlist{
+    display: flex;
+    justify-content: space-between ;
+    text-align: center;
+    margin-top: -5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+.slideshow-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 5px, solid;
+}
+.imgcontainer{
+    height: 50%;
+}
+
+
+.carousel-item img {
+    width: 100px;                
+    object-fit: cover;   
+    margin-left: 40px;
+    overflow: hidden;
+    z-index: 5;
+}
